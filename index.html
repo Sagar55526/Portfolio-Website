@@ -1,746 +1,603 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Portfolio</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
-    />
-    <link rel="stylesheet" href="stylesheet.css" />
-  </head>
-  <body>
-    <!-- Header -->
-    <header>
-      <div class="container">
-        <nav>
-          <div class="logo">Port<span>folio</span></div>
-          <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-          <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </div>
-        </nav>
-      </div>
-    </header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-      <div class="particles"></div>
-      <div class="container">
-        <div
-          class="hero-content"
-          data-aos="fade-right"
-          data-aos-duration="1200"
-        >
-          <h1>
-            Hi, I'm <span>Sagar</span> a
-            <span id="scrambleText" class="scramble-text"></span>
-          </h1>
-          <p>
-            Aspiring Software Engineer passionate about delivering scalable web
-            solutions, solving real world problems, and driving innovation.
-          </p>
-          <a href="#projects" class="cta-btn">My Projects</a>
-          <a href="#contact" class="cta-btn outline">Contact Me</a>
-          <!-- Interactive Color Theme Switcher -->
-          <!-- <div class="theme-switcher" data-aos="fade-up" data-aos-delay="200"> -->
-          <!-- <h3>Customize My Portfolio</h3>
-            <p>Choose a color theme that suits your mood</p> -->
-          <div class="color-options">
-            <div
-              class="color-option default"
-              data-primary="#1a1a2e"
-              data-accent="#4d5bf9"
-            ></div>
-            <div
-              class="color-option purple"
-              data-primary="#1e1e3f"
-              data-accent="#a277ff"
-            ></div>
-            <div
-              class="color-option green"
-              data-primary="#0f1a20"
-              data-accent="#46e3c4"
-            ></div>
-            <div
-              class="color-option red"
-              data-primary="#1e1015"
-              data-accent="#ff6b6b"
-            ></div>
-            <div
-              class="color-option blue"
-              data-primary="#10151d"
-              data-accent="#00c3ff"
-            ></div>
-          </div>
-          <!-- </div> -->
-          <div class="social-icons">
-            <a href="https://github.com/Sagar55526" target="_blank"
-              ><i class="fab fa-github"></i
-            ></a>
-            <a
-              href="https://www.linkedin.com/in/sagar-ahire-b22a6b234/"
-              target="_blank"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <link rel="stylesheet" href="stylesheet.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">Port<span>folio</span></div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
-      </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-      <div class="container">
-        <div class="section-title" data-aos="fade-up">
-          <h2>About Me</h2>
-        </div>
-        <div class="about-content">
-          <div
-            class="about-image"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-          >
-            <img src="/api/placeholder/400/320" alt="Your Photo" />
-          </div>
-          <div
-            class="about-text"
-            data-aos="fade-left"
-            data-aos-duration="1000"
-            data-aos-delay="200"
-          >
-            <h3>Frontend Developer & UI/UX Designer</h3>
-            <p>
-              I’m a passionate software engineer with experience in building web
-              solutions and automating processes. I’ve worked on projects
-              ranging from AI-based platforms to online marketplaces for used
-              books, specializing in both frontend and backend development.
-            </p>
-            <p>
-              Currently pursuing a B.Tech in Information Technology, I’m
-              committed to continuous learning and innovation, with a focus on
-              AI, NLP, and web technologies.
-            </p>
-            <div class="skills">
-              <div class="skill-item">
-                <div class="skill-info">
-                  <span>C/C++</span>
-                </div>
-              </div>
-              <div class="skill-item">
-                <div class="skill-info">
-                  <span>.NET framework</span>
-                </div>
-              </div>
-              <div class="skill-item">
-                <div class="skill-info">
-                  <span>SQL</span>
-                </div>
-              </div>
-              <div class="skill-item">
-                <div class="skill-info">
-                  <span>React.js</span>
-                </div>
-              </div>
-              <div class="skill-item">
-                <div class="skill-info">
-                  <span>REST APIs</span>
-                </div>
-              </div>
-              <div class="skill-item">
-                <div class="skill-info">
-                  <span>Flask</span>
-                </div>
-              </div>
-              <div class="skill-item">
-                <div class="skill-info">
-                  <span>HTML</span>
-                </div>
-              </div>
-              <div class="skill-item">
-                <div class="skill-info">
-                  <span>CSS</span>
-                </div>
-              </div>
-              <div class="skill-item">
-                <div class="skill-info">
-                  <span>NLP</span>
-                </div>
-              </div>
-              <div class="skill-item">
-                <div class="skill-info">
-                  <span>Git/Github(Actions)</span>
-                </div>
-              </div>
-              <div class="skill-item">
-                <div class="skill-info">
-                  <span>AWS(S3, EC2, CloudFront)</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-      <div class="container">
-        <div class="section-title" data-aos="fade-up">
-          <h2>My Projects</h2>
-        </div>
-        <div class="projects-grid">
-          <!-- Project 1 -->
-          <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
-            <div class="project-image">
-              <img
-                src="images\Screenshot 2024-07-30 013246.png"
-                alt="Project 1"
-              />
-            </div>
-            <div class="project-info">
-              <h3 class="project-title">PustakZone</h3>
-              <div class="project-tags">
-                <span class="project-tag">ASP.NET</span>
-                <span class="project-tag">Microsoft SQL Server</span>
-                <span class="project-tag">Bootstrap</span>
-                <span class="project-tag">RazorPay Gateway</span>
-              </div>
-              <p class="project-description">
-                Built a web marketplace enabling students to list, search, and
-                manage academic book exchanges of previous semesters.
-              </p>
-              <div class="project-links">
-                <!-- <a href="#" class="project-link demo">Live Demo</a> -->
-                <a
-                  href="https://github.com/Sagar55526/PustakZone"
-                  class="project-link github"
-                  >GitHub</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 2 -->
-          <div
-            class="project-card"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-delay="200"
-          >
-            <div class="project-image">
-              <img
-                src="images\Screenshot 2024-07-14 225419.png"
-                alt="Project 3"
-              />
-            </div>
-            <div class="project-info">
-              <h3 class="project-title">Intel's UNNATI Project</h3>
-              <div class="project-tags">
-                <span class="project-tag">Flask</span>
-                <span class="project-tag">OCR</span>
-                <span class="project-tag">Spacy</span>
-                <span class="project-tag">Firebase</span>
-                <span class="project-tag">NLP</span>
-              </div>
-              <p class="project-description">
-                An NLP-based solution to automate deviation detection between
-                business contracts and templates, reducing manual review time.
-              </p>
-              <div class="project-links">
-                <!-- <a href="#" class="project-link demo">Live Demo</a> -->
-                <a href="#" class="project-link github">GitHub</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 3 -->
-          <div
-            class="project-card"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-delay="100"
-          >
-            <div class="project-image">
-              <img
-                src="images\Screenshot 2025-04-25 072132.png"
-                alt="Project 2"
-              />
-            </div>
-            <div class="project-info">
-              <h3 class="project-title">VidyaMitra</h3>
-              <div class="project-tags">
-                <span class="project-tag">Flask</span>
-                <span class="project-tag">Firebase</span>
-                <span class="project-tag">NLP</span>
-                <span class="project-tag">REST API's</span>
-                <span class="project-tag">NER</span>
-              </div>
-              <p class="project-description">
-                Boosted student exam preparation through an interactive UI with
-                semantic evaluation and gamified learning.
-              </p>
-              <div class="project-links">
-                <!-- <a href="#" class="project-link demo">Live Demo</a> -->
-                <a
-                  href="https://github.com/Sagar55526/VidyaMitra"
-                  class="project-link github"
-                  >GitHub</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 4 -->
-          <div
-            class="project-card"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-delay="300"
-          >
-            <div class="project-image">
-              <img
-                src="images\Screenshot 2025-05-24 214917.png"
-                alt="Project 4"
-              />
-            </div>
-            <div class="project-info">
-              <h3 class="project-title">Job Portal Application</h3>
-              <div class="project-tags">
-                <span class="project-tag">React</span>
-                <span class="project-tag">Tailwind</span>
-                <span class="project-tag">vite</span>
-                <span class="project-tag">json-server</span>
-                <span class="project-tag">Github actions</span>
-                <span class="project-tag">AWS (S3, EC2, CloudFront)</span>
-              </div>
-              <p class="project-description">
-                React based job portal application is built for understanding of
-                github actions and concepts of Amazon web service.
-              </p>
-              <div class="project-links">
-                <a
-                  href="http://job-portal-hosting.s3-website.eu-north-1.amazonaws.com"
-                  class="project-link demo"
-                  >Live Demo</a
-                >
-                <a
-                  href="https://github.com/Sagar55526/Job-Portal_App"
-                  class="project-link github"
-                  >GitHub</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 5 -->
-          <div
-            class="project-card"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-delay="400"
-          >
-            <div class="project-image">
-              <img
-                src="images\Screenshot 2025-05-24 220324.png"
-                alt="Project 5"
-              />
-            </div>
-            <div class="project-info">
-              <h3 class="project-title">Online Library Management System</h3>
-              <div class="project-tags">
-                <span class="project-tag">ASP.NET</span>
-                <span class="project-tag">microsoft SQL Server</span>
-                <span class="project-tag">bootstrap</span>
-              </div>
-              <p class="project-description">
-                A full-stack library management system with authentication and
-                routing like features.
-              </p>
-              <div class="project-links">
-                <!-- <a href="#" class="project-link demo">Live Demo</a> -->
-                <a
-                  href="https://github.com/Sagar55526/ELib-Solution"
-                  class="project-link github"
-                  >GitHub</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <!-- Project 6 -->
-          <div
-            class="project-card"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-delay="500"
-          >
-            <div class="project-image">
-              <img src="/api/placeholder/400/320" alt="Project 6" />
-            </div>
-            <div class="project-info">
-              <h3 class="project-title">LaundryLink</h3>
-              <div class="project-tags">
-                <span class="project-tag">PHP</span>
-                <span class="project-tag">Xampp</span>
-                <span class="project-tag">MyPhpAdmin</span>
-                <span class="project-tag">Bootstrap</span>
-              </div>
-              <p class="project-description">
-                Developed a platform that streamlined laundry operations by
-                automating scheduling and improving workflow.
-              </p>
-              <div class="project-links">
-                <!-- <a href="#" class="project-link demo">Live Demo</a> -->
-                <a
-                  href="https://github.com/Sagar55526/LaundryLinkPBL"
-                  class="project-link github"
-                  >GitHub</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-      <div class="container">
-        <div class="section-title" data-aos="fade-up">
-          <h2>Work Experience</h2>
-        </div>
-        <div class="experience-timeline">
-          <!-- Internship 1 -->
-          <div
-            class="timeline-item"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-          >
-            <div class="timeline-content">
-              <span class="timeline-date">June 2023 - August 2023</span>
-              <h3 class="timeline-title">Frontend Developer Intern</h3>
-              <h4 class="timeline-subtitle">FocusRealm</h4>
-              <p class="timeline-description">
-                • Developed and maintained responsive web application using
-                React.js and modern CSS frameworks<br />
-                • Collaborated with UI/UX designers to implement visual elements
-                that enhanced user experience<br />
-                • Participated in code reviews and implemented feedback to
-                improve code quality<br />
-              </p>
-            </div>
-          </div>
-
-          <!-- Internship 2 -->
-          <div
-            class="timeline-item"
-            data-aos="fade-left"
-            data-aos-duration="1000"
-            data-aos-delay="200"
-          >
-            <div class="timeline-content">
-              <span class="timeline-date">December 2023 - January 2024</span>
-              <a href="https://github.com/Sagar55526/internship_TDK_2023-24"
-                ><h3 class="timeline-title">SDE Intern</h3></a
-              >
-              <h4 class="timeline-subtitle">TDK Corporation</h4>
-              <p class="timeline-description">
-                • Worked on web based projects using .NET framework and for PLC
-                automation utilized snap7 lib and HslCommunication.<br />
-                • A software system, titled '3D Scanner Requisition', was
-                developed to aid workers and administration in tracking the use
-                and distribution of multiple scanners and tools.<br />
-                • Collaborated with stakeholders to ensure design implementation
-                accuracy<br />
-              </p>
-            </div>
-          </div>
-          <!-- Open to New Opportunities -->
-          <div
-            class="timeline-item highlight-opportunity"
-            data-aos="zoom-in"
-            data-aos-duration="1000"
-            data-aos-delay="400"
-          >
-            <div class="timeline-content">
-              <span class="timeline-date">June 2025 - Present</span>
-              <h3 class="timeline-title">
-                Associate Software Development Engineer
-              </h3>
-              <h4 class="timeline-subtitle">Questt AI</h4>
-              <!-- <p class="timeline-description">• Working on FastAPI<br /></p> -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-      <div class="container">
-        <div class="section-title" data-aos="fade-up">
-          <h2>Get In Touch</h2>
-        </div>
-        <div class="contact-container">
-          <div
-            class="contact-info"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-          >
-            <h3>Let's Talk About Your Project</h3>
-            <p>
-              Feel free to reach out if you're looking for a developer, have a
-              question, or just want to connect.
-            </p>
-            <div class="contact-details">
-              <div class="contact-detail">
-                <i class="fas fa-envelope"></i>
-                <span>ahiresagar06130@gmail.com</span>
-              </div>
-              <div class="contact-detail">
-                <i class="fas fa-phone"></i>
-                <span>+91-9699031859</span>
-              </div>
-              <div class="contact-detail">
-                <i class="fas fa-map-marker-alt"></i>
-                <span>Nashik, Maharashtra, India</span>
-              </div>
-            </div>
-            <div class="social-icons">
-              <a href="https://github.com/Sagar55526" target="_blank"
-                ><i class="fab fa-github"></i
-              ></a>
-              <a
-                href="https://www.linkedin.com/in/sagar-ahire-b22a6b234/"
-                target="_blank"
-                ><i class="fab fa-linkedin"></i
-              ></a>
-            </div>
-          </div>
-          <div
-            class="contact-form"
-            data-aos="fade-left"
-            data-aos-duration="1000"
-            data-aos-delay="200"
-          >
-            <form id="contactForm">
-              <div class="form-group">
-                <label for="name">Your Name</label>
-                <input type="text" id="name" class="form-control" required />
-              </div>
-              <div class="form-group">
-                <label for="email">Your Email</label>
-                <input type="email" id="email" class="form-control" required />
-              </div>
-              <div class="form-group">
-                <label for="subject">Subject</label>
-                <input type="text" id="subject" class="form-control" required />
-              </div>
-              <div class="form-group">
-                <label for="message">Message</label>
-                <textarea id="message" class="form-control" required></textarea>
-              </div>
-              <button type="submit" class="submit-btn">Send Message</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-      <div class="container">
-        <div class="footer-content">
-          <div class="footer-logo">Your Portfolio</div>
-          <div class="footer-social">
-            <a href="https://github.com/Sagar55526/" target="_blank"
-              ><i class="fab fa-github"></i
-            ></a>
-            <a
-              href="https://www.linkedin.com/in/sagar-ahire-b22a6b234/"
-              target="_blank"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-          </div>
-          <div class="footer-links">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#experience">Experience</a>
-            <a href="#contact">Contact</a>
-          </div>
-          <div class="copyright">
-            &copy; <span id="year"></span> Sagar Ahire. All Rights Reserved.
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Back to Top Button -->
-    <div class="back-to-top">
-      <i class="fas fa-arrow-up"></i>
+      </nav>
     </div>
+  </header>
 
-    <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script>
-      // Initialize AOS
-      AOS.init({
-        once: true,
-        offset: 200,
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="particles"></div>
+    <div class="container">
+      <div class="hero-content" data-aos="fade-right" data-aos-duration="1200">
+        <h1>
+          Hi, I'm <span>Sagar</span> a
+          <span id="scrambleText" class="scramble-text"></span>
+        </h1>
+        <p>
+          Aspiring Software Engineer passionate about delivering scalable web
+          solutions, solving real world problems, and driving innovation.
+        </p>
+        <a href="#projects" class="cta-btn">My Projects</a>
+        <a href="#contact" class="cta-btn outline">Contact Me</a>
+        <!-- Interactive Color Theme Switcher -->
+        <!-- <div class="theme-switcher" data-aos="fade-up" data-aos-delay="200"> -->
+        <!-- <h3>Customize My Portfolio</h3>
+            <p>Choose a color theme that suits your mood</p> -->
+        <div class="color-options">
+          <div class="color-option default" data-primary="#1a1a2e" data-accent="#4d5bf9"></div>
+          <div class="color-option purple" data-primary="#1e1e3f" data-accent="#a277ff"></div>
+          <div class="color-option green" data-primary="#0f1a20" data-accent="#46e3c4"></div>
+          <div class="color-option red" data-primary="#1e1015" data-accent="#ff6b6b"></div>
+          <div class="color-option blue" data-primary="#10151d" data-accent="#00c3ff"></div>
+        </div>
+        <!-- </div> -->
+        <div class="social-icons">
+          <a href="https://github.com/Sagar55526" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/sagar-ahire-b22a6b234/" target="_blank"><i
+              class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <h2>About Me</h2>
+      </div>
+      <div class="about-content">
+        <div class="about-image" data-aos="fade-right" data-aos-duration="1000">
+          <img src="images\intro-image.png" alt="Your Photo" style="width: 60%;" />
+        </div>
+        <div class="about-text" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+          <h3>Software Developer Engineer</h3>
+          <p class="project-description">
+            Currently working as a Software Development Engineer at Questt AI, where I contribute to building
+            intelligent industry grade solutions leveraging AI and data-driven systems.
+          </p>
+          <p>
+            With a B.Tech in Information Technology underway, I remain committed to continuous learning and
+            innovation—focusing on areas like Artificial Intelligence, Natural Language Processing, and modern web
+            technologies.
+          </p>
+
+          <div class="skills">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>FastAPI</span>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Flask</span>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Machine Learning</span>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>NLP</span>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>SQL</span>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>React.js</span>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>REST APIs</span>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>.NET framework</span>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Git/Github(Actions)</span>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>AWS(S3, EC2, CloudFront)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <h2>My Projects</h2>
+      </div>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
+          <div class="project-image">
+            <img src="images\Screenshot 2024-07-30 013246.png" alt="Project 1" />
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">PustakZone</h3>
+            <div class="project-tags">
+              <span class="project-tag">ASP.NET</span>
+              <span class="project-tag">Microsoft SQL Server</span>
+              <span class="project-tag">Bootstrap</span>
+              <span class="project-tag">RazorPay Gateway</span>
+            </div>
+            <p class="project-description">
+              Built a web marketplace enabling students to list, search, and
+              manage academic book exchanges of previous semesters.
+            </p>
+            <div class="project-links">
+              <!-- <a href="#" class="project-link demo">Live Demo</a> -->
+              <a href="https://github.com/Sagar55526/PustakZone" class="project-link github">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+          <div class="project-image">
+            <img src="images\Screenshot 2024-07-14 225419.png" alt="Project 3" />
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Intel's UNNATI Project</h3>
+            <div class="project-tags">
+              <span class="project-tag">Flask</span>
+              <span class="project-tag">OCR</span>
+              <span class="project-tag">Spacy</span>
+              <span class="project-tag">Firebase</span>
+              <span class="project-tag">NLP</span>
+            </div>
+            <p class="project-description">
+              An NLP-based solution to automate deviation detection between
+              business contracts and templates, reducing manual review time.
+            </p>
+            <div class="project-links">
+              <!-- <a href="#" class="project-link demo">Live Demo</a> -->
+              <a href="#" class="project-link github">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+          <div class="project-image">
+            <img src="images\Screenshot 2025-04-25 072132.png" alt="Project 2" />
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">VidyaMitra</h3>
+            <div class="project-tags">
+              <span class="project-tag">Flask</span>
+              <span class="project-tag">Firebase</span>
+              <span class="project-tag">NLP</span>
+              <span class="project-tag">REST API's</span>
+              <span class="project-tag">NER</span>
+            </div>
+            <p class="project-description">
+              Boosted student exam preparation through an interactive UI with
+              semantic evaluation and gamified learning.
+            </p>
+            <div class="project-links">
+              <!-- <a href="#" class="project-link demo">Live Demo</a> -->
+              <a href="https://github.com/Sagar55526/VidyaMitra" class="project-link github">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+          <div class="project-image">
+            <img src="images\Screenshot 2025-05-24 214917.png" alt="Project 4" />
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Job Portal Application</h3>
+            <div class="project-tags">
+              <span class="project-tag">React</span>
+              <span class="project-tag">Tailwind</span>
+              <span class="project-tag">vite</span>
+              <span class="project-tag">json-server</span>
+              <span class="project-tag">Github actions</span>
+              <span class="project-tag">AWS (S3, EC2, CloudFront)</span>
+            </div>
+            <p class="project-description">
+              React based job portal application is built for understanding of
+              github actions and concepts of Amazon web service.
+            </p>
+            <div class="project-links">
+              <a href="http://job-portal-hosting.s3-website.eu-north-1.amazonaws.com" class="project-link demo">Live
+                Demo</a>
+              <a href="https://github.com/Sagar55526/Job-Portal_App" class="project-link github">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+          <div class="project-image">
+            <img src="images\Screenshot 2025-05-24 220324.png" alt="Project 5" />
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Online Library Management System</h3>
+            <div class="project-tags">
+              <span class="project-tag">ASP.NET</span>
+              <span class="project-tag">microsoft SQL Server</span>
+              <span class="project-tag">bootstrap</span>
+            </div>
+            <p class="project-description">
+              A full-stack library management system with authentication and
+              routing like features.
+            </p>
+            <div class="project-links">
+              <!-- <a href="#" class="project-link demo">Live Demo</a> -->
+              <a href="https://github.com/Sagar55526/ELib-Solution" class="project-link github">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+          <div class="project-image">
+            <img src="/api/placeholder/400/320" alt="Project 6" />
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">LaundryLink</h3>
+            <div class="project-tags">
+              <span class="project-tag">PHP</span>
+              <span class="project-tag">Xampp</span>
+              <span class="project-tag">MyPhpAdmin</span>
+              <span class="project-tag">Bootstrap</span>
+            </div>
+            <p class="project-description">
+              Developed a platform that streamlined laundry operations by
+              automating scheduling and improving workflow.
+            </p>
+            <div class="project-links">
+              <!-- <a href="#" class="project-link demo">Live Demo</a> -->
+              <a href="https://github.com/Sagar55526/LaundryLinkPBL" class="project-link github">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="experience">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <h2>Work Experience</h2>
+      </div>
+      <div class="experience-timeline">
+        <!-- Internship 1 -->
+        <div class="timeline-item" data-aos="fade-right" data-aos-duration="1000">
+          <div class="timeline-content">
+            <span class="timeline-date">June 2023 - August 2023</span>
+            <h3 class="timeline-title">Frontend Developer Intern</h3>
+            <h4 class="timeline-subtitle">FocusRealm</h4>
+            <p class="timeline-description">
+              • Developed and maintained responsive web application using
+              React.js and modern CSS frameworks<br />
+              • Collaborated with UI/UX designers to implement visual elements
+              that enhanced user experience<br />
+              • Participated in code reviews and implemented feedback to
+              improve code quality<br />
+            </p>
+          </div>
+        </div>
+
+        <!-- Internship 2 -->
+        <div class="timeline-item" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+          <div class="timeline-content">
+            <span class="timeline-date">December 2023 - January 2024</span>
+            <a href="https://github.com/Sagar55526/internship_TDK_2023-24">
+              <h3 class="timeline-title">SDE Intern</h3>
+            </a>
+            <h4 class="timeline-subtitle">TDK Corporation</h4>
+            <p class="timeline-description">
+              • Worked on web based projects using .NET framework and for PLC
+              automation utilized snap7 lib and HslCommunication.<br />
+              • A software system, titled '3D Scanner Requisition', was
+              developed to aid workers and administration in tracking the use
+              and distribution of multiple scanners and tools.<br />
+              • Collaborated with stakeholders to ensure design implementation
+              accuracy<br />
+            </p>
+          </div>
+        </div>
+        <!-- Open to New Opportunities -->
+        <div class="timeline-item highlight-opportunity" data-aos="zoom-in" data-aos-duration="1000"
+          data-aos-delay="400">
+          <div class="timeline-content">
+            <span class="timeline-date">June 2025 - Present</span>
+            <h3 class="timeline-title">
+              Associate Software Development Engineer
+            </h3>
+            <h4 class="timeline-subtitle">Questt AI</h4>
+            <!-- <p class="timeline-description">• Working on FastAPI<br /></p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <h2>Get In Touch</h2>
+      </div>
+      <div class="contact-container">
+        <div class="contact-info" data-aos="fade-right" data-aos-duration="1000">
+          <h3>Let's Talk About Your Project</h3>
+          <p>
+            Feel free to reach out if you're looking for a developer, have a
+            question, or just want to connect.
+          </p>
+          <div class="contact-details">
+            <div class="contact-detail">
+              <i class="fas fa-envelope"></i>
+              <span>ahiresagar06130@gmail.com</span>
+            </div>
+            <div class="contact-detail">
+              <i class="fas fa-phone"></i>
+              <span>+91-9699031859</span>
+            </div>
+            <div class="contact-detail">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Nashik, Maharashtra, India</span>
+            </div>
+          </div>
+          <div class="social-icons">
+            <a href="https://github.com/Sagar55526" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/sagar-ahire-b22a6b234/" target="_blank"><i
+                class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="contact-form" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" class="form-control" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" class="form-control" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" class="form-control" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" class="form-control" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">Your Portfolio</div>
+        <div class="footer-social">
+          <a href="https://github.com/Sagar55526/" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/sagar-ahire-b22a6b234/" target="_blank"><i
+              class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="copyright">
+          &copy; <span id="year"></span> Sagar Ahire. All Rights Reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <div class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    // Initialize AOS
+    AOS.init({
+      once: true,
+      offset: 200,
+    });
+
+    // Mobile Nav
+    const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.querySelector(".nav-links");
+    const navLinksItems = document.querySelectorAll(".nav-links li");
+
+    hamburger.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+      hamburger.classList.toggle("active");
+    });
+
+    navLinksItems.forEach((item) => {
+      item.addEventListener("click", () => {
+        navLinks.classList.remove("active");
+        hamburger.classList.remove("active");
       });
+    });
 
-      // Mobile Nav
-      const hamburger = document.querySelector(".hamburger");
-      const navLinks = document.querySelector(".nav-links");
-      const navLinksItems = document.querySelectorAll(".nav-links li");
+    // Sticky Header
+    window.addEventListener("scroll", () => {
+      const header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 50);
+    });
 
-      hamburger.addEventListener("click", () => {
-        navLinks.classList.toggle("active");
-        hamburger.classList.toggle("active");
+    // Back to Top Button
+    const backToTopButton = document.querySelector(".back-to-top");
+
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 300) {
+        backToTopButton.classList.add("active");
+      } else {
+        backToTopButton.classList.remove("active");
+      }
+    });
+
+    backToTopButton.addEventListener("click", () => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
       });
+    });
 
-      navLinksItems.forEach((item) => {
-        item.addEventListener("click", () => {
-          navLinks.classList.remove("active");
-          hamburger.classList.remove("active");
-        });
+    // Skill Progress Animation
+    const skillProgress = document.querySelectorAll(".skill-progress");
+
+    const animateSkills = () => {
+      skillProgress.forEach((progress) => {
+        const width = progress.getAttribute("data-width");
+        progress.style.width = width + "%";
       });
+    };
 
-      // Sticky Header
-      window.addEventListener("scroll", () => {
-        const header = document.querySelector("header");
-        header.classList.toggle("sticky", window.scrollY > 50);
-      });
+    // Trigger skill animation when the about section is in view
+    const aboutSection = document.querySelector("#about");
 
-      // Back to Top Button
-      const backToTopButton = document.querySelector(".back-to-top");
-
-      window.addEventListener("scroll", () => {
-        if (window.scrollY > 300) {
-          backToTopButton.classList.add("active");
-        } else {
-          backToTopButton.classList.remove("active");
-        }
-      });
-
-      backToTopButton.addEventListener("click", () => {
-        window.scrollTo({
-          top: 0,
-          behavior: "smooth",
-        });
-      });
-
-      // Skill Progress Animation
-      const skillProgress = document.querySelectorAll(".skill-progress");
-
-      const animateSkills = () => {
-        skillProgress.forEach((progress) => {
-          const width = progress.getAttribute("data-width");
-          progress.style.width = width + "%";
-        });
-      };
-
-      // Trigger skill animation when the about section is in view
-      const aboutSection = document.querySelector("#about");
-
-      const observer = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              setTimeout(animateSkills, 500);
-              observer.unobserve(entry.target);
-            }
-          });
-        },
-        { threshold: 0.2 }
-      );
-
-      observer.observe(aboutSection);
-
-      // Smooth Scrolling for Navigation Links
-      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-        anchor.addEventListener("click", function (e) {
-          e.preventDefault();
-
-          const targetId = this.getAttribute("href");
-          const targetElement = document.querySelector(targetId);
-
-          if (targetElement) {
-            window.scrollTo({
-              top: targetElement.offsetTop - 70,
-              behavior: "smooth",
-            });
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setTimeout(animateSkills, 500);
+            observer.unobserve(entry.target);
           }
         });
-      });
+      },
+      { threshold: 0.2 }
+    );
 
-      // Contact Form Submission (Example - Replace with your backend logic)
-      const contactForm = document.getElementById("contactForm");
+    observer.observe(aboutSection);
 
-      contactForm.addEventListener("submit", (e) => {
+    // Smooth Scrolling for Navigation Links
+    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+      anchor.addEventListener("click", function (e) {
         e.preventDefault();
 
-        // Form validation
-        const name = document.getElementById("name").value;
-        const email = document.getElementById("email").value;
-        const subject = document.getElementById("subject").value;
-        const message = document.getElementById("message").value;
+        const targetId = this.getAttribute("href");
+        const targetElement = document.querySelector(targetId);
 
-        if (name && email && subject && message) {
-          // Here you would normally send data to a backend
-          alert("Thank you! Your message has been sent successfully.");
-          contactForm.reset();
-        } else {
-          alert("Please fill in all fields.");
+        if (targetElement) {
+          window.scrollTo({
+            top: targetElement.offsetTop - 70,
+            behavior: "smooth",
+          });
         }
       });
+    });
 
-      // Dynamic Copyright Year
-      document.getElementById("year").textContent = new Date().getFullYear();
+    // Contact Form Submission (Example - Replace with your backend logic)
+    const contactForm = document.getElementById("contactForm");
 
-      // Create floating particles for background effect
-      const createParticles = () => {
-        const particlesContainer = document.querySelector(".particles");
-        const particleCount = 20;
+    contactForm.addEventListener("submit", (e) => {
+      e.preventDefault();
 
-        for (let i = 0; i < particleCount; i++) {
-          const particle = document.createElement("div");
-          particle.classList.add("particle");
+      // Form validation
+      const name = document.getElementById("name").value;
+      const email = document.getElementById("email").value;
+      const subject = document.getElementById("subject").value;
+      const message = document.getElementById("message").value;
 
-          // Random position
-          const posX = Math.random() * 100;
-          const posY = Math.random() * 100;
+      if (name && email && subject && message) {
+        // Here you would normally send data to a backend
+        alert("Thank you! Your message has been sent successfully.");
+        contactForm.reset();
+      } else {
+        alert("Please fill in all fields.");
+      }
+    });
 
-          // Random size
-          const size = Math.random() * 15 + 5;
+    // Dynamic Copyright Year
+    document.getElementById("year").textContent = new Date().getFullYear();
 
-          // Random color
-          const colors = [
-            "rgba(77, 91, 249, 0.1)",
-            "rgba(77, 161, 249, 0.1)",
-            "rgba(147, 91, 249, 0.1)",
-          ];
-          const color = colors[Math.floor(Math.random() * colors.length)];
+    // Create floating particles for background effect
+    const createParticles = () => {
+      const particlesContainer = document.querySelector(".particles");
+      const particleCount = 20;
 
-          // Random animation duration
-          const duration = Math.random() * 60 + 30;
-          const delay = Math.random() * 10;
+      for (let i = 0; i < particleCount; i++) {
+        const particle = document.createElement("div");
+        particle.classList.add("particle");
 
-          particle.style.cssText = `
+        // Random position
+        const posX = Math.random() * 100;
+        const posY = Math.random() * 100;
+
+        // Random size
+        const size = Math.random() * 15 + 5;
+
+        // Random color
+        const colors = [
+          "rgba(77, 91, 249, 0.1)",
+          "rgba(77, 161, 249, 0.1)",
+          "rgba(147, 91, 249, 0.1)",
+        ];
+        const color = colors[Math.floor(Math.random() * colors.length)];
+
+        // Random animation duration
+        const duration = Math.random() * 60 + 30;
+        const delay = Math.random() * 10;
+
+        particle.style.cssText = `
                     left: ${posX}%;
                     top: ${posY}%;
                     width: ${size}px;
@@ -750,121 +607,122 @@
                     animation-delay: -${delay}s;
                 `;
 
-          particlesContainer.appendChild(particle);
-        }
-      };
+        particlesContainer.appendChild(particle);
+      }
+    };
 
-      createParticles();
-      class TextScramble {
-        constructor(el) {
-          this.el = el;
-          this.chars = "!<>-_\\/[]{}—=+*^?#________";
-          this.update = this.update.bind(this);
-        }
+    createParticles();
+    class TextScramble {
+      constructor(el) {
+        this.el = el;
+        this.chars = "!<>-_\\/[]{}—=+*^?#________";
+        this.update = this.update.bind(this);
+      }
 
-        setText(newText) {
-          const oldText = this.el.innerText;
-          const length = Math.max(oldText.length, newText.length);
-          const promise = new Promise((resolve) => (this.resolve = resolve));
-          this.queue = [];
+      setText(newText) {
+        const oldText = this.el.innerText;
+        const length = Math.max(oldText.length, newText.length);
+        const promise = new Promise((resolve) => (this.resolve = resolve));
+        this.queue = [];
 
-          for (let i = 0; i < length; i++) {
-            const from = oldText[i] || "";
-            const to = newText[i] || "";
-            const start = Math.floor(Math.random() * 40);
-            const end = start + Math.floor(Math.random() * 40);
-            this.queue.push({ from, to, start, end });
-          }
-
-          cancelAnimationFrame(this.frameRequest);
-          this.frame = 0;
-          this.update();
-          return promise;
+        for (let i = 0; i < length; i++) {
+          const from = oldText[i] || "";
+          const to = newText[i] || "";
+          const start = Math.floor(Math.random() * 40);
+          const end = start + Math.floor(Math.random() * 40);
+          this.queue.push({ from, to, start, end });
         }
 
-        update() {
-          let output = "";
-          let complete = 0;
+        cancelAnimationFrame(this.frameRequest);
+        this.frame = 0;
+        this.update();
+        return promise;
+      }
 
-          for (let i = 0, n = this.queue.length; i < n; i++) {
-            let { from, to, start, end, char } = this.queue[i];
+      update() {
+        let output = "";
+        let complete = 0;
 
-            if (this.frame >= end) {
-              complete++;
-              output += to;
-            } else if (this.frame >= start) {
-              if (!char || Math.random() < 0.28) {
-                char = this.randomChar();
-                this.queue[i].char = char;
-              }
-              output += `<span class="dud">${char}</span>`;
-            } else {
-              output += from;
+        for (let i = 0, n = this.queue.length; i < n; i++) {
+          let { from, to, start, end, char } = this.queue[i];
+
+          if (this.frame >= end) {
+            complete++;
+            output += to;
+          } else if (this.frame >= start) {
+            if (!char || Math.random() < 0.28) {
+              char = this.randomChar();
+              this.queue[i].char = char;
             }
-          }
-
-          this.el.innerHTML = output;
-
-          if (complete === this.queue.length) {
-            this.resolve();
+            output += `<span class="dud">${char}</span>`;
           } else {
-            this.frameRequest = requestAnimationFrame(this.update);
-            this.frame++;
+            output += from;
           }
         }
 
-        randomChar() {
-          return this.chars[Math.floor(Math.random() * this.chars.length)];
+        this.el.innerHTML = output;
+
+        if (complete === this.queue.length) {
+          this.resolve();
+        } else {
+          this.frameRequest = requestAnimationFrame(this.update);
+          this.frame++;
         }
       }
 
-      // Initialize Text Scramble after DOM content is loaded
-      document.addEventListener("DOMContentLoaded", () => {
-        const phrases = ["Developer", "Problem Solver", "Team Player"];
+      randomChar() {
+        return this.chars[Math.floor(Math.random() * this.chars.length)];
+      }
+    }
 
-        const el = document.getElementById("scrambleText");
-        const fx = new TextScramble(el);
+    // Initialize Text Scramble after DOM content is loaded
+    document.addEventListener("DOMContentLoaded", () => {
+      const phrases = ["Developer", "Problem Solver", "Team Player"];
 
-        let counter = 0;
-        const next = () => {
-          fx.setText(phrases[counter]).then(() => {
-            setTimeout(next, 2000);
-          });
-          counter = (counter + 1) % phrases.length;
-        };
+      const el = document.getElementById("scrambleText");
+      const fx = new TextScramble(el);
 
-        next();
+      let counter = 0;
+      const next = () => {
+        fx.setText(phrases[counter]).then(() => {
+          setTimeout(next, 2000);
+        });
+        counter = (counter + 1) % phrases.length;
+      };
 
-        // Theme Switcher
-        const colorOptions = document.querySelectorAll(".color-option");
-        const root = document.documentElement;
+      next();
 
-        colorOptions.forEach((option) => {
-          option.addEventListener("click", () => {
-            const primary = option.getAttribute("data-primary");
-            const accent = option.getAttribute("data-accent");
+      // Theme Switcher
+      const colorOptions = document.querySelectorAll(".color-option");
+      const root = document.documentElement;
 
-            root.style.setProperty("--primary", primary);
-            root.style.setProperty("--accent", accent);
-            root.style.setProperty("--highlight", accent);
+      colorOptions.forEach((option) => {
+        option.addEventListener("click", () => {
+          const primary = option.getAttribute("data-primary");
+          const accent = option.getAttribute("data-accent");
 
-            // Update active state
-            colorOptions.forEach((opt) => opt.classList.remove("active"));
-            option.classList.add("active");
+          root.style.setProperty("--primary", primary);
+          root.style.setProperty("--accent", accent);
+          root.style.setProperty("--highlight", accent);
 
-            // Add a bounce animation to the elements with accent color
-            const accentElements = document.querySelectorAll(
-              ".logo, .section-title h2, .project-title, .timeline-date, .skill-item"
-            );
+          // Update active state
+          colorOptions.forEach((opt) => opt.classList.remove("active"));
+          option.classList.add("active");
 
-            accentElements.forEach((el) => {
-              el.style.animation = "none";
-              void el.offsetWidth; // Trigger reflow
-              el.style.animation = "bounce 0.5s ease";
-            });
+          // Add a bounce animation to the elements with accent color
+          const accentElements = document.querySelectorAll(
+            ".logo, .section-title h2, .project-title, .timeline-date, .skill-item"
+          );
+
+          accentElements.forEach((el) => {
+            el.style.animation = "none";
+            void el.offsetWidth; // Trigger reflow
+            el.style.animation = "bounce 0.5s ease";
           });
         });
       });
-    </script>
-  </body>
+    });
+  </script>
+</body>
+
 </html>
